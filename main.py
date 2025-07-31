@@ -1,4 +1,7 @@
 
+from statistics import linear_regression
+
+
 def saludar(nombre):
     print(f"Hola, {nombre}!")
     print("¿Cómo estás?")
@@ -11,3 +14,4 @@ def main():
 
 if __name__ == "__main__":
     main()  
+print("nueva linea")
